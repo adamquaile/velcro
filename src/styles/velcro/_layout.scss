@@ -1,0 +1,20 @@
+@import "../../../bower_components/gridle/sass/grid-settings";
+@import "../../../bower_components/gridle/sass/grid";
+
+.base-layout-floated-list {
+  list-style-type: none;
+  display: block;
+
+  > * {
+    float: left;
+    display: block;
+  }
+}
+// Alias gridle for consistency
+@mixin base-layout-grid-item($count) {
+
+  $gridle-gutter-width: $gutter;
+  $gridle-debug: false;
+
+  @include gridle($count);
+}

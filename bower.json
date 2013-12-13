@@ -1,0 +1,19 @@
+{
+  "name": "Velcro",
+  "version": "0.0.0",
+  "authors": [
+    "Adam Quaile <adamquaile@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gridle": "*"
+  }
+}
